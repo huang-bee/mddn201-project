@@ -11,12 +11,12 @@ body{
 }
 
 section{
-	max-width: 1000px;
-	height: 270px;
+	height: 100px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 20px;
 	margin-bottom: 20px;
+	padding-left: 450px;
 }
 
 header{
@@ -33,21 +33,31 @@ nav{
 }
 
 nav a {
-	float: center;
+	margin-top: -5px;
+	padding: 24px;
+	display: block;
 	font-size: 13px;
 	font-weight: bold;
-	line-height: 60px;
-	margin-left: 1em;
-	margin-right: 1em;
 	text-decoration: none;
 	color: #5c5c5c;
 }
 
-nav a:hover{
-	color: #f7f7f7;
-	background-color: #f0a432;
-	padding: 25px;
+ul {
+	list-style: none;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
 
+li {
+	display: inline-block;
+}
+
+nav a:hover{
+	margin-top: -8px;
+	color: #f7f7f7;
+	background: #f0a432;
+	transition: 0.5s;
 }
 
 h1 {
@@ -57,18 +67,24 @@ h1 {
 	color: #2e2e2e;
 }
 
+h2 {
+	font-size: 35px;
+	margin-left: -20px;
+}
 .intro {
 	margin-top: -20px;
 	font-family: 'Calibri', serif;
 	font-size: 17px;
 	width: 1000px;
 }
-
 .navigate {
-	margin-left: 200px;
-	background-color: #f0a432;
-	padding: 25px;
+	background: #f0a432;
 }
+
+.home {
+	height:900px;
+}
+
  a p{
  	font-family: 'Calibri', serif;
  	text-decoration: none;
@@ -81,38 +97,19 @@ h1 {
  	font-size: 17px;
  }
 
+ img {
+	margin-left: 3px;
+	padding-bottom: 500px;
+ }
 
+ .text {
+ 	text-align: left;
+ 	max-width: 1050px;
+ }
 
-/* Simple grid */
-.g-row{
-	width: 100%;
-	overflow: hidden;
-}
+#two, #three, #four, #five, #six, #seven {
+	width: 1050px;
+	height: 65px;
+	background: #f0a432;
+	padding: 12px 0 30px 20px;
 
-.g-row img{
-	width: 100%; /*This makes all images in grids to be the size of their cell */
-}
-
-.g-50{
-	width: 50%;
-	float: left;
-}
-
-.g-30{
-	width: 30%;
-	float: left;
-}
-
-.g-70{
-	width: 70%;
-	float: left;
-}
-
-.show{
-	border: 1px solid blue;
-	padding: 2px;
-}
-
-.padded{
-	padding: 20px; /* I add this to cells to add a little padding*/
-}

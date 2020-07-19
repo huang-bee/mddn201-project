@@ -10,140 +10,82 @@
 
 <body>
 	<nav>
-		<a class="navigate" href="#one">HOME: SEEING NETOWRKS</a>
-		<a href="#two">ANTENNAS & POWERLINES</a>
-		<a href="#three">CABLES</a>
-		<a href="#four">SIGNS</a>
-		<a href="#five">MANHOLES</a>
+		<ul>
+			<li class="navigate"><a href="#one">HOME: SEEING NETOWRKS</a></li>
+			<li><a href="#two">ANTENNAS</a></li>
+			<li><a href="#three">CABLES</a></li>
+			<li><a href="#four">SATELLITE DISHES</a></li>
+			<li><a href="#five">MANHOLES</a></li>
+			<li><a href="#six">POWERLINES</a></li>
+			<li><a href="#seven">MARKINGS</a></li>
+		</ul>
 	</nav>
-
-	<section>
+	<section class="home">
 		<h1>Seeing Networks in Wellingotn City</h1>
 		<p class="intro">Wellington’s network infrastructure is a lot like the city itself: messy, sprawling, and at times near-incomprehensible. However, the city’s tendency toward flux is a strange blessing for the infrastructure sightseer: markings and remnants of the network are almost everywhere, once you know how to look for them.</p>
 		<p>If you would like to read more about internet infrastructers check out this <a href="https://weburbanist.com/2015/02/12/networks-of-new-york-field-guide-to-internet-infrastructure/">article!</a></p>
-
 	</section>
 
-	<section id="one">
-		<p><strong>Content number one</strong></p>
-		<p>By setting an a tag's href to "#one", it will link to a html element with the id of "one". <a href="https://css-tricks.com/hash-tag-links-padding/">More info about that here</a></p>
-	</section>
-
-	<section id="two">
-		<p><strong>Content number 2</strong></p>
-	</section>
-
-	<section id="three">
-		<p><strong>Content number 3</strong></p>
-	</section>
-
-	<header>
-		<section>
-			<h1>This header has a solid background and some padding</h1>
-			<p>There is also a section tag inside it to center this content</p>
+		<section id="two">
+			<h2>Antennas</h2>
 		</section>
-	</header>
+		<center>
+		<p class="text"> antenna (sometimes called an aerial) does: it's the metal rod or dish that catches radio waves and turns them into electrical signals feeding into something like a radio or television or a telephone system. Antennas like this are sometimes called receivers
+
+		<p class="text">The internet is provided through cables and cords..</p>
+			<img src="img/antenna.jpg">
+			<img src="img/antenna2.jpg">
+		</center>
+
+		<section id="three">
+			<h2>Cables</h2>
+		</section>
+		<center>
+		<p class="text">Electrical cables are used to connect two or more devices, enabling the transfer of electrical signals or power from one device to the other. Cables are used for a wide range of purposes, and each must be tailored for that purpose. Cables are used extensively in electronic devices for power and signal circuits.</p>
+			<img src="img/cable.jpg">
+			<img src="img/cable2.jpg">
+		</center>
+
+
+		<section id="four">
+			<h2>Satellite Dishes</h2>
+		</section>
+		<center>
+		<p class="text">A satellite dish is a dish-shaped type of parabolic antenna designed to receive or transmit information by radio waves to or from a communication satellite. The term most commonly means a dish used by consumers to receive direct-broadcast satellite television from a direct broadcast satellite in geostationary orbit.</p>
+			<img src="img/satellite.jpg">
+			<img src="img/satellite2.jpg">
+		</center>
+
+		<section id="five">
+			<h2>Manholes</h2>
+		</section>
+		<center>
+		<p class="text">Manholes are often used as an access point for an underground public utility, allowing inspection, maintenance, and system upgrades. The majority of underground services have manholes, including water, sewers, telephone, electricity, storm drains, district heating, and gas.</p>
+			<img src="img/manhole.jpg">
+			<img src="img/manhole2.jpg">
+		</center>
+
+		<section id="six">
+			<h2>Power Lines</h2>
+		</section>
+		<center>
+		<p class="text">An overhead power line is a structure used in electric power transmission and distribution to transmit electrical energy across large distances. It consists of one or more uninsulated electrical cables (commonly multiples of three for three-phase power) suspended by towers or poles.</p>
+			<img src="img/powerline.jpg">
+			<img src="img/powerline2.jpg">
+		</center>
+
+		<section id="seven">
+			<h2>Cameras</h2>
+		</section>
+		<center>
+		<p class="text">A CCTV (closed-circuit television) system allows the use of videos cameras to monitor the interior and exterior of a property, transmitting the signal to a monitor or set of monitors. More and more of us are switching on the benefits of CCTV security systems.</p>
+			<img src="img/camera.jpg">
+			<img src="img/camera2.jpg">
+		</center>
 
 	
-
-	<section>
-		<h3>Grids</h3>
-
-		<p>Use grids to divide up or layout content. For example, putting an image on the left, and lots to text on the right</p>
-
-		<p>I've added a 'show' class so you can see where the grids are. Use chrome's web inspector tools to take a closer look</p>
-
-
-		<div class="g-row show"> <!--first wrap all grid cells in a g-row-->
-			<div class="g-50 show">
-				50% width .g-50
-			</div>
-			<div class="g-50 show">
-				50% width .g-50
-			</div>
-
-			<div class="g-30 show">
-				30% width .g-30
-			</div>
-
-			<div class="g-70 show">
-				70% width .g-70
-			</div>
-		</div>
-
-		<p>The other cool things about grids, is that 50% width means 50% of the div's <em>parent</em>. This means you can put cells in cells to get infinitly smaller sizes. The possiblities are endless!</p>
-
-		<div class="g-row show"> <!--first wrap all grid cells in a g-row-->
-			<div class="g-50 show">
-				<div class="g-50 show">
-					<div class="g-50 show">
-						50%
-					</div>
-					<div class="g-50 show">
-						50%
-					</div>
-				</div>
-				<div class="g-50 show">
-					50%
-				</div>
-			</div>
-			<div class="g-50 show">
-				50%
-			</div>
-		</div>
-
-		<p>Here's a simple page using all of these elements</p>
-	</section>
-
-	<header>
-		<section>
-			<h1>Infrastructure of Wellington</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-		</section>
-	</header>
-
-	<section>
-		<div class="g-row">
-			<div class="g-30">
-				<img src="img/cover.jpg">
-			</div>
-			<div class="g-70 padded">
-				<h3>Example</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque est, egestas tristique quam nec, efficitur efficitur massa. Aenean in faucibus felis. Mauris ut ligula vestibulum, varius metus vitae, maximus orci.</p>
-			</div>
-		</div>
-
-		<div class="g-row">
-			<div class="g-30">
-				<img src="img/cover.jpg">
-			</div>
-			<div class="g-70 padded">
-				<h3>Example</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque est, egestas tristique quam nec, efficitur efficitur massa. Aenean in faucibus felis. Mauris ut ligula vestibulum, varius metus vitae, maximus orci.</p>
-			</div>
-		</div>
-
-		<div class="g-row">
-			<div class="g-30">
-				<img src="img/cover.jpg">
-			</div>
-			<div class="g-70 padded">
-				<h3>Example</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque est, egestas tristique quam nec, efficitur efficitur massa. Aenean in faucibus felis. Mauris ut ligula vestibulum, varius metus vitae, maximus orci.</p>
-			</div>
-		</div>
-
-		<div class="g-row">
-			<div class="g-30">
-				<img src="img/cover.jpg">
-			</div>
-			<div class="g-70 padded">
-				<h3>Example</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque est, egestas tristique quam nec, efficitur efficitur massa. Aenean in faucibus felis. Mauris ut ligula vestibulum, varius metus vitae, maximus orci.</p>
-			</div>
-		</div>
-	</section>
-
+	<footer>
+	Bee Huang 2020 - MDDN201 SA1
+	</footer>
 </body>
-
 </html>
