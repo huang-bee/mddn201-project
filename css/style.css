@@ -20,7 +20,7 @@ section{
 
 header{
 	background-color: darkOrange;
-	color: white; /* more readable on an orange background */
+	color: white; 
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
@@ -76,7 +76,7 @@ div {
 	background-color: #ebebeb;
 	margin-top:50px;
 	width:1050px;
-	height:600px;
+	height:120px;
 }
 
 .intro {
@@ -105,10 +105,35 @@ div {
 }
 
 .button {
-	margin: -85px 0 0 1200px;
-	width: 80px;
-	height: 65px;
-	text-align: rcenter;
+	color: #2e2e2e;
+	margin: -75px 0 0 940px;
+	width: 90px;
+	height: 90px;
+	text-align: center;
+	padding: 15px;
+	background: #ebebeb; 
+}
+
+.button:hover {
+	width: 90px;
+	height: 90px;
+	color: #acbdba;
+	transition: 0.2s;
+}
+
+.next:hover {
+	width: 70px;
+	height: 70px;
+	color: #acbdba;
+	transition: 0.2s;
+}
+
+.next {
+	color: #2e2e2e;
+	margin: -85px 0 0 758px;
+	width: 70px;
+	height: 70px;
+	text-align: center;
 	padding: 15px;
 	background: #ebebeb; 
 }
