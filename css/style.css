@@ -16,7 +16,6 @@ section{
 	margin-right: auto;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	padding-left: 450px;
 }
 
 header{
@@ -28,18 +27,17 @@ header{
 
 nav{
 	width: 100%;
-	height: 55px;
+	height: 43px;
 	background-color: #f7f7f7;
 }
 
 nav a {
-	margin-top: -5px;
-	padding: 24px;
+	padding: 15px;
 	display: block;
 	font-size: 13px;
 	font-weight: bold;
 	text-decoration: none;
-	color: #5c5c5c;
+	color: #333333;
 }
 
 ul {
@@ -54,13 +52,15 @@ li {
 }
 
 nav a:hover{
-	margin-top: -8px;
+	padding-bottom: 20px;
 	color: #f7f7f7;
-	background: #f0a432;
+	background: #acbdba;
 	transition: 0.5s;
 }
 
 h1 {
+	text-align: center;
+	margin-left: -100px;
 	font-family: 'EB Garamond', serif;
 	font-size: 55px;
 	font-weight: lighter;
@@ -71,35 +71,69 @@ h2 {
 	font-size: 35px;
 	margin-left: -20px;
 }
+
+div {
+	background-color: #ebebeb;
+	margin-top:50px;
+	width:1050px;
+	height:600px;
+}
+
 .intro {
+	text-align: left;
+	margin-left: 110px;
 	margin-top: -20px;
 	font-family: 'Calibri', serif;
 	font-size: 17px;
 	width: 1000px;
 }
+
+.introspace {
+	text-align: left;
+	margin-left: 110px;
+	font-family: 'Calibri', serif;
+	font-size: 17px;
+	width: 1000px;
+}
 .navigate {
-	background: #f0a432;
+	height:50px;
+	background: #acbdba;
 }
 
 .home {
-	height:900px;
+	height:1150px;
+}
+
+.button {
+	margin: -85px 0 0 1200px;
+	width: 80px;
+	height: 65px;
+	text-align: rcenter;
+	padding: 15px;
+	background: #ebebeb; 
 }
 
  a p{
  	font-family: 'Calibri', serif;
  	text-decoration: none;
  	font-weight: bold;
- 	color: #f0a432;
+ 	color: #acbdba;
  }
 
  p {
+ 	text-align: center;
  	font-family: 'Calibri', serif;
  	font-size: 17px;
  }
 
  img {
 	margin-left: 3px;
-	padding-bottom: 500px;
+/*	padding-bottom: 700px;*/
+ }
+
+ a{
+ 	text-decoration: none;
+ 	color: #5c6e6c;
  }
 
  .text {
@@ -110,6 +144,17 @@ h2 {
 #two, #three, #four, #five, #six, #seven {
 	width: 1050px;
 	height: 65px;
-	background: #f0a432;
+	background: #acbdba;
 	padding: 12px 0 30px 20px;
+}
+
+footer {
+	text-align: center;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	background: #f7f7f7;
+	font-size: 13px;
+	font-weight: bold;
+	color: #333333;
+}
 
