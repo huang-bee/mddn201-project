@@ -76,8 +76,9 @@ div {
 	background-color: #ebebeb;
 	margin-top:50px;
 	width:1050px;
-	height:120px;
+	height:270px;
 }
+
 
 .intro {
 	text-align: left;
@@ -153,7 +154,7 @@ div {
 
  img {
 	margin-left: 3px;
-/*	padding-bottom: 700px;*/
+	margin-top: 4px;
  }
 
  a{
